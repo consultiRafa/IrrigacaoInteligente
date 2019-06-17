@@ -7,4 +7,4 @@ o impacto ambiental dessa atividade. Para isso, utiliza estimativa de Evapotrans
 determinar a demanda hídrica do campo de irrigação e assim implementar um manejo controlado da água no plantio. A Arquitetura do dispositivo 
 está dividida em dois núcleos Arduino: Uno R3 e Pro Mini. O primeiro deles controla a interface do sistema que é composta pelo display
 TFT e os botões. O segundo realiza os cálculos agrometereológicos e gerencia os demais componentes: sensor de temperatura do ar, 
-sensor de fluxo de água, relê/válvula solonoide e relógio (RTC). São incorporados, portanto, comunicação serial entre as placas.
+sensor de fluxo de água, relê/válvula solonoide e relógio (RTC). São incorporados, portanto, comunicação serial entre as placas. O armazenamento (persitência dos dados) se dá através do uso da memória EEPROM do Arduino. 
